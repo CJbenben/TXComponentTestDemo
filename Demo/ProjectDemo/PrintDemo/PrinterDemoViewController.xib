@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrinterDemoViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Guz-9q-uuZ">
+                    <rect key="frame" x="160" y="164" width="94" height="38"/>
+                    <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                    <state key="normal" title="打印pdf"/>
+                    <connections>
+                        <action selector="printerPdfAction:" destination="-1" eventType="touchUpInside" id="Abo-lv-7Ie"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8n-aC-J7K">
+                    <rect key="frame" x="156" y="222" width="102" height="38"/>
+                    <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                    <state key="normal" title="打印图片"/>
+                    <connections>
+                        <action selector="printerImageAction:" destination="-1" eventType="touchUpInside" id="PaJ-oR-wDM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="m8n-aC-J7K" firstAttribute="top" secondItem="Guz-9q-uuZ" secondAttribute="bottom" constant="20" id="0Fe-DO-agE"/>
+                <constraint firstItem="Guz-9q-uuZ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="120" id="dzG-DU-8vL"/>
+                <constraint firstItem="Guz-9q-uuZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="k8s-wM-IBd"/>
+                <constraint firstItem="m8n-aC-J7K" firstAttribute="centerX" secondItem="Guz-9q-uuZ" secondAttribute="centerX" id="z3d-UA-fbI"/>
+            </constraints>
+            <point key="canvasLocation" x="101" y="72"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

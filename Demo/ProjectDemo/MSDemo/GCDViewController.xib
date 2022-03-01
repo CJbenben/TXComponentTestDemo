@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GCDViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="任务 ABC 顺序不重要" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fL-4x-qSa">
+                    <rect key="frame" x="20" y="124" width="164" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afg-WD-k6r">
+                    <rect key="frame" x="20" y="175" width="108" height="30"/>
+                    <state key="normal" title="dispatch_group"/>
+                    <connections>
+                        <action selector="groupAction:" destination="-1" eventType="touchUpInside" id="xHy-eS-ZK1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8J-qv-7oK">
+                    <rect key="frame" x="233" y="175" width="161" height="30"/>
+                    <state key="normal" title="dispatch_barrier_async"/>
+                    <connections>
+                        <action selector="barrierAction:" destination="-1" eventType="touchUpInside" id="OhX-tG-Lez"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="严格按照ABC的执行顺序" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9z1-9B-Reb">
+                    <rect key="frame" x="20" y="235" width="190" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EO6-zw-RpL">
+                    <rect key="frame" x="20" y="286" width="170" height="30"/>
+                    <state key="normal" title="dispatch_barrier_async2"/>
+                    <connections>
+                        <action selector="barrier2Action:" destination="-1" eventType="touchUpInside" id="92N-OL-ut2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4r3-zn-pcj">
+                    <rect key="frame" x="241" y="286" width="153" height="30"/>
+                    <state key="normal" title="dispatch_barrier_sync"/>
+                    <connections>
+                        <action selector="barrier3Action:" destination="-1" eventType="touchUpInside" id="1tM-TS-jWy"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="queue_carete与global_queue区别" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXE-PX-58I">
+                    <rect key="frame" x="20" y="346" width="259" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPW-92-8cM">
+                    <rect key="frame" x="20" y="397" width="161" height="30"/>
+                    <state key="normal" title="dispatch_queue_create"/>
+                    <connections>
+                        <action selector="dispatch_queue_createAction:" destination="-1" eventType="touchUpInside" id="t6X-SI-J1G"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THp-D6-YXM">
+                    <rect key="frame" x="204" y="397" width="190" height="30"/>
+                    <state key="normal" title="dispatch_get_global_queue"/>
+                    <connections>
+                        <action selector="dispatch_get_global_queueAction:" destination="-1" eventType="touchUpInside" id="QfK-sF-Op7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="cXE-PX-58I" firstAttribute="leading" secondItem="7fL-4x-qSa" secondAttribute="leading" id="1gy-ci-7Qd"/>
+                <constraint firstItem="cXE-PX-58I" firstAttribute="top" secondItem="EO6-zw-RpL" secondAttribute="bottom" constant="30" id="BcZ-YJ-n9C"/>
+                <constraint firstItem="Afg-WD-k6r" firstAttribute="top" secondItem="7fL-4x-qSa" secondAttribute="bottom" constant="30" id="Css-U1-5T1"/>
+                <constraint firstItem="9z1-9B-Reb" firstAttribute="top" secondItem="Afg-WD-k6r" secondAttribute="bottom" constant="30" id="DSq-KS-3sJ"/>
+                <constraint firstItem="THp-D6-YXM" firstAttribute="trailing" secondItem="f8J-qv-7oK" secondAttribute="trailing" id="EFS-D0-KAU"/>
+                <constraint firstItem="WPW-92-8cM" firstAttribute="top" secondItem="cXE-PX-58I" secondAttribute="bottom" constant="30" id="FPf-NG-sEv"/>
+                <constraint firstItem="9z1-9B-Reb" firstAttribute="leading" secondItem="7fL-4x-qSa" secondAttribute="leading" id="HKQ-KU-srT"/>
+                <constraint firstItem="4r3-zn-pcj" firstAttribute="centerY" secondItem="EO6-zw-RpL" secondAttribute="centerY" id="Jyv-qL-snZ"/>
+                <constraint firstItem="EO6-zw-RpL" firstAttribute="leading" secondItem="Afg-WD-k6r" secondAttribute="leading" id="QBN-qb-2Na"/>
+                <constraint firstItem="f8J-qv-7oK" firstAttribute="centerY" secondItem="Afg-WD-k6r" secondAttribute="centerY" id="YKV-5z-wgg"/>
+                <constraint firstItem="4r3-zn-pcj" firstAttribute="trailing" secondItem="f8J-qv-7oK" secondAttribute="trailing" id="dtF-Gb-KYA"/>
+                <constraint firstItem="Afg-WD-k6r" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="dvh-LH-SOW"/>
+                <constraint firstItem="THp-D6-YXM" firstAttribute="centerY" secondItem="WPW-92-8cM" secondAttribute="centerY" id="eah-Jp-mlV"/>
+                <constraint firstItem="EO6-zw-RpL" firstAttribute="top" secondItem="9z1-9B-Reb" secondAttribute="bottom" constant="30" id="etg-3c-zFx"/>
+                <constraint firstItem="7fL-4x-qSa" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="80" id="iiU-Cc-Bfs"/>
+                <constraint firstItem="7fL-4x-qSa" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="pbI-hf-Ck0"/>
+                <constraint firstItem="WPW-92-8cM" firstAttribute="leading" secondItem="Afg-WD-k6r" secondAttribute="leading" id="qvz-ik-DSv"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="f8J-qv-7oK" secondAttribute="trailing" constant="20" id="z6s-Zg-oOc"/>
+            </constraints>
+            <point key="canvasLocation" x="10" y="66"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

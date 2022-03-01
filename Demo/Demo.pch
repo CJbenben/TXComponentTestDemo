@@ -1,0 +1,63 @@
+//
+//  Demo.pch
+//  Demo
+//
+//  Created by ChenJie on 2017/11/24.
+//  Copyright © 2017年 ChenJie. All rights reserved.
+//
+
+#ifndef Demo_pch
+#define Demo_pch
+
+#import "CJHTTPRequest.h"
+#import "UIColor+AtzucheColor.h"
+#import "UIImageView+WebCache.h"
+#import "UIView+AtzucheUIView.h"
+#import "Masonry.h"
+#import "AppDelegate.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define kAPPDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+/// 播放器view的tag，列表中UI控件唯一tag值
+#define kPlayerViewTag 100
+
+#define IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IS_IPHONE_6_PLUS ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IS_IPHONE_6_PLUS_ZOOM ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IS_IPHONE_6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IS_IPHONE_5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IS_IPHONE_4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#define HEX_RGB(V)        [UIColor colorWithRGBHex:V]
+
+#define RMB_Attr(priceStr) \
+({NSMutableAttributedString *priceAttr = [[NSMutableAttributedString alloc] init];\
+if (priceStr.floatValue == priceStr.intValue) {\
+priceAttr = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"￥%.0f", priceStr.floatValue]];\
+[priceAttr addAttribute:NSKernAttributeName value:@(-5) range:NSMakeRange(0, 1)];\
+}\
+else {\
+priceAttr = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"￥%.2f", priceStr.floatValue]];\
+[priceAttr addAttribute:NSKernAttributeName value:@(-5) range:NSMakeRange(0, 1)];\
+}\
+(priceAttr);})
+
+#define STATUS_BAR_HEIGHT [UIApplication sharedApplication].statusBarFrame.size.height
+static CGFloat const NAVIGATION_BAR_HEIGHT = 44;
+#define kRGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define IsEnablePersonalCenterVCMainTableViewScroll @"IsEnablePersonalCenterVCMainTableViewScroll"
+#define CurrentSelectedChildViewControllerIndex @"CurrentSelectedChildViewControllerIndex"
+#define PersonalCenterVCBackingStatus @"PersonalCenterVCBackingStatus"
+
+
+#endif /* Demo_pch */
