@@ -13,6 +13,13 @@
 		7D52B7C82514A0D60032282E /* DIN Alternate Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D52B7C32514A0D60032282E /* DIN Alternate Light.otf */; };
 		7D52B7C92514A0D60032282E /* DIN Alternate Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D52B7C42514A0D60032282E /* DIN Alternate Bold.ttf */; };
 		7D52B7CA2514A0D60032282E /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D52B7C52514A0D60032282E /* loading.png */; };
+		7D5AC21027CF6B4E00136B8C /* UIView+TXOtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20127CF6B4E00136B8C /* UIView+TXOtherView.m */; };
+		7D5AC21127CF6B4E00136B8C /* UIColor+TXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20627CF6B4E00136B8C /* UIColor+TXColor.m */; };
+		7D5AC21227CF6B4E00136B8C /* UIView+TXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20727CF6B4E00136B8C /* UIView+TXFrame.m */; };
+		7D5AC21327CF6B4E00136B8C /* UIImage+loadSPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20A27CF6B4E00136B8C /* UIImage+loadSPBundle.m */; };
+		7D5AC21427CF6B4E00136B8C /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20B27CF6B4E00136B8C /* NSString+TXString.m */; };
+		7D5AC21527CF6B4E00136B8C /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20C27CF6B4E00136B8C /* NSString+TXMD5.m */; };
+		7D5AC21627CF6B4E00136B8C /* UIView+TXCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20D27CF6B4E00136B8C /* UIView+TXCorner.m */; };
 		D2EF17860B35A948B14BE1C3 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F82D7517499F26132FFA72 /* libPods-Demo.a */; };
 		F59567811FAB4AD20068A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59567801FAB4AD20068A04F /* Assets.xcassets */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
@@ -51,6 +58,21 @@
 		7D52B7C32514A0D60032282E /* DIN Alternate Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Alternate Light.otf"; sourceTree = "<group>"; };
 		7D52B7C42514A0D60032282E /* DIN Alternate Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Alternate Bold.ttf"; sourceTree = "<group>"; };
 		7D52B7C52514A0D60032282E /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		7D5AC20127CF6B4E00136B8C /* UIView+TXOtherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXOtherView.m"; sourceTree = "<group>"; };
+		7D5AC20227CF6B4E00136B8C /* NSString+TXMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXMD5.h"; sourceTree = "<group>"; };
+		7D5AC20327CF6B4E00136B8C /* UIColor+TXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXColor.h"; sourceTree = "<group>"; };
+		7D5AC20427CF6B4E00136B8C /* NSString+TXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXString.h"; sourceTree = "<group>"; };
+		7D5AC20527CF6B4E00136B8C /* UIView+TXOtherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXOtherView.h"; sourceTree = "<group>"; };
+		7D5AC20627CF6B4E00136B8C /* UIColor+TXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TXColor.m"; sourceTree = "<group>"; };
+		7D5AC20727CF6B4E00136B8C /* UIView+TXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXFrame.m"; sourceTree = "<group>"; };
+		7D5AC20827CF6B4E00136B8C /* UIView+TXCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXCorner.h"; sourceTree = "<group>"; };
+		7D5AC20927CF6B4E00136B8C /* UIView+TXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXFrame.h"; sourceTree = "<group>"; };
+		7D5AC20A27CF6B4E00136B8C /* UIImage+loadSPBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+loadSPBundle.m"; sourceTree = "<group>"; };
+		7D5AC20B27CF6B4E00136B8C /* NSString+TXString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXString.m"; sourceTree = "<group>"; };
+		7D5AC20C27CF6B4E00136B8C /* NSString+TXMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXMD5.m"; sourceTree = "<group>"; };
+		7D5AC20D27CF6B4E00136B8C /* UIView+TXCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXCorner.m"; sourceTree = "<group>"; };
+		7D5AC20E27CF6B4E00136B8C /* UIImage+loadSPBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+loadSPBundle.h"; sourceTree = "<group>"; };
+		7D5AC20F27CF6B4E00136B8C /* TXCategoryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCategoryKit.h; sourceTree = "<group>"; };
 		C1A3EC334A534427B4F75C41 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F59567741FAB4AD20068A04F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567801FAB4AD20068A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +142,36 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		7D5AC1E927CF6B3E00136B8C /* CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				7D5AC1EA27CF6B3E00136B8C /* TXCategoryKit */,
+			);
+			path = CocoaPods;
+			sourceTree = "<group>";
+		};
+		7D5AC1EA27CF6B3E00136B8C /* TXCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D5AC20F27CF6B4E00136B8C /* TXCategoryKit.h */,
+				7D5AC20227CF6B4E00136B8C /* NSString+TXMD5.h */,
+				7D5AC20C27CF6B4E00136B8C /* NSString+TXMD5.m */,
+				7D5AC20427CF6B4E00136B8C /* NSString+TXString.h */,
+				7D5AC20B27CF6B4E00136B8C /* NSString+TXString.m */,
+				7D5AC20327CF6B4E00136B8C /* UIColor+TXColor.h */,
+				7D5AC20627CF6B4E00136B8C /* UIColor+TXColor.m */,
+				7D5AC20E27CF6B4E00136B8C /* UIImage+loadSPBundle.h */,
+				7D5AC20A27CF6B4E00136B8C /* UIImage+loadSPBundle.m */,
+				7D5AC20827CF6B4E00136B8C /* UIView+TXCorner.h */,
+				7D5AC20D27CF6B4E00136B8C /* UIView+TXCorner.m */,
+				7D5AC20927CF6B4E00136B8C /* UIView+TXFrame.h */,
+				7D5AC20727CF6B4E00136B8C /* UIView+TXFrame.m */,
+				7D5AC20527CF6B4E00136B8C /* UIView+TXOtherView.h */,
+				7D5AC20127CF6B4E00136B8C /* UIView+TXOtherView.m */,
+			);
+			path = TXCategoryKit;
+			sourceTree = "<group>";
+		};
 		9DDA882E3BA37FECE97A620A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +206,7 @@
 		F59567761FAB4AD20068A04F /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7D5AC1E927CF6B3E00136B8C /* CocoaPods */,
 				F599D7772019753800D33834 /* AppDelegate */,
 				F5E3037D20C13D09001F11EC /* Public */,
 				7D52B7C02514A0D60032282E /* Resource */,
@@ -382,8 +435,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5AC21427CF6B4E00136B8C /* NSString+TXString.m in Sources */,
+				7D5AC21227CF6B4E00136B8C /* UIView+TXFrame.m in Sources */,
 				F5E3038B20C13D09001F11EC /* SecondViewController.m in Sources */,
+				7D5AC21327CF6B4E00136B8C /* UIImage+loadSPBundle.m in Sources */,
+				7D5AC21127CF6B4E00136B8C /* UIColor+TXColor.m in Sources */,
 				F5FD32C520C4D1C90049B79B /* AtzucheCustomTipView.m in Sources */,
+				7D5AC21527CF6B4E00136B8C /* NSString+TXMD5.m in Sources */,
+				7D5AC21027CF6B4E00136B8C /* UIView+TXOtherView.m in Sources */,
+				7D5AC21627CF6B4E00136B8C /* UIView+TXCorner.m in Sources */,
 				F599D7812019753800D33834 /* AppDelegate.m in Sources */,
 				F59567871FAB4AD20068A04F /* main.m in Sources */,
 			);

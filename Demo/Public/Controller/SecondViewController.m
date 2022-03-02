@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "TXCategoryKit.h"
 
 @interface SecondViewController ()
 
