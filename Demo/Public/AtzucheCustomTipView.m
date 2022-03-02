@@ -57,7 +57,7 @@
     //CGFloat imageWidth = 20;
     
     
-    CGFloat tipLMaxW = 375 - (self.isHaveImage?40 : 20) - (self.isHaveArrow?30 : 0);
+    CGFloat tipLMaxW = [UIScreen mainScreen].bounds.size.width - (self.isHaveImage?40 : 20) - (self.isHaveArrow?30 : 0);
     
     CGSize tipLSize = [self cjSizeWithString:self.tipL.text font:self.tipL.font maxSize:CGSizeMake(tipLMaxW, CGFLOAT_MAX)];
     
