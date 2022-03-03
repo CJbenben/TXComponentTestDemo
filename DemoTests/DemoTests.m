@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "TXImageUtils.h"
 
 @interface DemoTests : XCTestCase
 
@@ -27,6 +28,11 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"123456" ofType:@"pdf"];
+    [[TXImageUtils alloc] getAndSaveUIImageFromPdfFilePath:path completion:^(BOOL isSuccess) {
+            
+    }];
 }
 
 - (void)testPerformanceExample {

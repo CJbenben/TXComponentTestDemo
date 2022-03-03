@@ -18,5 +18,6 @@
 #import "TXFont.h"
 #import "TXFrame.h"
 #import "TXTool.h"
+#import "TXImageUtils.h"
 
 #endif /* TXCommonKit_h */

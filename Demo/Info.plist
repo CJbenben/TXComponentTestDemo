@@ -31,6 +31,8 @@
 	<string>一直使用</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>用于请求语音识别</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>您需要访问相册以保存图片。 您允许应用访问您的相册吗？</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>用于请求麦克风语音输入授权</string>
 	<key>NSContactsUsageDescription</key>

@@ -17,7 +17,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)getCurrentDeviceModel;
 
-+ (NSDictionary *)getIPAddresses;
+/*
+ @brief 获取设备当前网络IP地址
+ @return    ip 地址
+ */
++ (NSString *)getNetworkIPAddress;
 
 @end
 
