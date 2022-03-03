@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "TXCategoryKit.h"
 #import "TXCommonKit.h"
+#import "TXTitleButton.h"
 
 @interface SecondViewController ()
 
@@ -20,7 +21,13 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
+    TXTitleButton *btn = [[TXTitleButton alloc] initWithFrame:CGRectMake(10, 120, 115, 80)];
+    [btn setBackgroundColor:[UIColor lightGrayColor]];
+    [btn setupWithFont:[UIFont systemFontOfSize:14]];
+    [btn setImage:[UIImage imageNamed:@"test.jpeg"] forState:UIControlStateNormal];
+    [btn setTitle:@"租车" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:btn];
 }
 
 #pragma mark - UITableViewDataSource
@@ -57,6 +64,10 @@
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    
+    NSString *str=  [TXAppSystemInfo getDeviceUniqueId];
+    NSString *bundleid = AppBundleIdentifier;
+    [TXAppSystemInfo getDeviceUniqueId];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
