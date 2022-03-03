@@ -15,3 +15,5 @@
 #import "NSString+TXMD5.h"
 #import "UIColor+TXColor.h"
 #import "UIView+TXOtherView.h"
+#import "UIViewController+TXMakeToast.h"
+#import "UIView+Toast.h"

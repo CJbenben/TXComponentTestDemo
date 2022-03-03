@@ -25,6 +25,13 @@
 		7D5AC27727CF71DF00136B8C /* TXGlobalDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC26A27CF71DF00136B8C /* TXGlobalDefine.m */; };
 		7D5AC27B27CF721400136B8C /* TXAppSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC27927CF721400136B8C /* TXAppSystemInfo.m */; };
 		7D5AC27F27D057A200136B8C /* TXImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC27E27D057A200136B8C /* TXImageUtils.m */; };
+		7D5AC2D227D068E600136B8C /* TXDadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2C827D068E600136B8C /* TXDadView.m */; };
+		7D5AC2D327D068E600136B8C /* TXDadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2C927D068E600136B8C /* TXDadViewController.m */; };
+		7D5AC2D427D068E600136B8C /* public_navi_left_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC2CB27D068E600136B8C /* public_navi_left_back@3x.png */; };
+		7D5AC2D527D068E600136B8C /* public_base_loading_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC2CC27D068E600136B8C /* public_base_loading_bg@3x.png */; };
+		7D5AC2D727D068E600136B8C /* TXNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2D127D068E600136B8C /* TXNaviViewController.m */; };
+		7D5AC2DC27D0890D00136B8C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2D827D0890D00136B8C /* UIView+Toast.m */; };
+		7D5AC2DD27D0890D00136B8C /* UIViewController+TXMakeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2D927D0890D00136B8C /* UIViewController+TXMakeToast.m */; };
 		D2EF17860B35A948B14BE1C3 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F82D7517499F26132FFA72 /* libPods-Demo.a */; };
 		F59567811FAB4AD20068A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59567801FAB4AD20068A04F /* Assets.xcassets */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
@@ -95,6 +102,18 @@
 		7D5AC27A27CF721400136B8C /* TXAppSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAppSystemInfo.h; sourceTree = "<group>"; };
 		7D5AC27D27D057A200136B8C /* TXImageUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXImageUtils.h; sourceTree = "<group>"; };
 		7D5AC27E27D057A200136B8C /* TXImageUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXImageUtils.m; sourceTree = "<group>"; };
+		7D5AC2C727D068E600136B8C /* TXDadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXDadView.h; sourceTree = "<group>"; };
+		7D5AC2C827D068E600136B8C /* TXDadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXDadView.m; sourceTree = "<group>"; };
+		7D5AC2C927D068E600136B8C /* TXDadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXDadViewController.m; sourceTree = "<group>"; };
+		7D5AC2CB27D068E600136B8C /* public_navi_left_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public_navi_left_back@3x.png"; sourceTree = "<group>"; };
+		7D5AC2CC27D068E600136B8C /* public_base_loading_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public_base_loading_bg@3x.png"; sourceTree = "<group>"; };
+		7D5AC2CF27D068E600136B8C /* TXDadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXDadViewController.h; sourceTree = "<group>"; };
+		7D5AC2D027D068E600136B8C /* TXNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXNaviViewController.h; sourceTree = "<group>"; };
+		7D5AC2D127D068E600136B8C /* TXNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXNaviViewController.m; sourceTree = "<group>"; };
+		7D5AC2D827D0890D00136B8C /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		7D5AC2D927D0890D00136B8C /* UIViewController+TXMakeToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXMakeToast.m"; sourceTree = "<group>"; };
+		7D5AC2DA27D0890D00136B8C /* UIViewController+TXMakeToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXMakeToast.h"; sourceTree = "<group>"; };
+		7D5AC2DB27D0890D00136B8C /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		C1A3EC334A534427B4F75C41 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F59567741FAB4AD20068A04F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567801FAB4AD20068A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -167,6 +186,7 @@
 		7D5AC1E927CF6B3E00136B8C /* CocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				7D5AC2B527D068B700136B8C /* TXBaseKit */,
 				7D5AC25227CF71D100136B8C /* TXCommonKit */,
 				7D5AC1EA27CF6B3E00136B8C /* TXCategoryKit */,
 			);
@@ -185,12 +205,16 @@
 				7D5AC20627CF6B4E00136B8C /* UIColor+TXColor.m */,
 				7D5AC20E27CF6B4E00136B8C /* UIImage+loadSPBundle.h */,
 				7D5AC20A27CF6B4E00136B8C /* UIImage+loadSPBundle.m */,
+				7D5AC2DB27D0890D00136B8C /* UIView+Toast.h */,
+				7D5AC2D827D0890D00136B8C /* UIView+Toast.m */,
 				7D5AC20827CF6B4E00136B8C /* UIView+TXCorner.h */,
 				7D5AC20D27CF6B4E00136B8C /* UIView+TXCorner.m */,
 				7D5AC20927CF6B4E00136B8C /* UIView+TXFrame.h */,
 				7D5AC20727CF6B4E00136B8C /* UIView+TXFrame.m */,
 				7D5AC20527CF6B4E00136B8C /* UIView+TXOtherView.h */,
 				7D5AC20127CF6B4E00136B8C /* UIView+TXOtherView.m */,
+				7D5AC2DA27D0890D00136B8C /* UIViewController+TXMakeToast.h */,
+				7D5AC2D927D0890D00136B8C /* UIViewController+TXMakeToast.m */,
 			);
 			path = TXCategoryKit;
 			sourceTree = "<group>";
@@ -217,6 +241,29 @@
 				7D5AC27E27D057A200136B8C /* TXImageUtils.m */,
 			);
 			path = TXCommonKit;
+			sourceTree = "<group>";
+		};
+		7D5AC2B527D068B700136B8C /* TXBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D5AC2CA27D068E600136B8C /* Resources */,
+				7D5AC2C727D068E600136B8C /* TXDadView.h */,
+				7D5AC2C827D068E600136B8C /* TXDadView.m */,
+				7D5AC2CF27D068E600136B8C /* TXDadViewController.h */,
+				7D5AC2C927D068E600136B8C /* TXDadViewController.m */,
+				7D5AC2D027D068E600136B8C /* TXNaviViewController.h */,
+				7D5AC2D127D068E600136B8C /* TXNaviViewController.m */,
+			);
+			path = TXBaseKit;
+			sourceTree = "<group>";
+		};
+		7D5AC2CA27D068E600136B8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D5AC2CB27D068E600136B8C /* public_navi_left_back@3x.png */,
+				7D5AC2CC27D068E600136B8C /* public_base_loading_bg@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		9DDA882E3BA37FECE97A620A /* Pods */ = {
@@ -430,8 +477,10 @@
 			files = (
 				F5E3039220C13D59001F11EC /* LaunchScreen.storyboard in Resources */,
 				7D52B7C92514A0D60032282E /* DIN Alternate Bold.ttf in Resources */,
+				7D5AC2D527D068E600136B8C /* public_base_loading_bg@3x.png in Resources */,
 				F59567811FAB4AD20068A04F /* Assets.xcassets in Resources */,
 				7D52B7CA2514A0D60032282E /* loading.png in Resources */,
+				7D5AC2D427D068E600136B8C /* public_navi_left_back@3x.png in Resources */,
 				7D3392892563726B00C9FCBF /* 123456.pdf in Resources */,
 				7D52B7C72514A0D60032282E /* loading.gif in Resources */,
 				F5E3039320C13D59001F11EC /* Main.storyboard in Resources */,
@@ -484,19 +533,24 @@
 			files = (
 				7D5AC21427CF6B4E00136B8C /* NSString+TXString.m in Sources */,
 				7D5AC21227CF6B4E00136B8C /* UIView+TXFrame.m in Sources */,
+				7D5AC2D327D068E600136B8C /* TXDadViewController.m in Sources */,
 				F5E3038B20C13D09001F11EC /* SecondViewController.m in Sources */,
 				7D5AC21327CF6B4E00136B8C /* UIImage+loadSPBundle.m in Sources */,
 				7D5AC21127CF6B4E00136B8C /* UIColor+TXColor.m in Sources */,
 				F5FD32C520C4D1C90049B79B /* AtzucheCustomTipView.m in Sources */,
 				7D5AC27627CF71DF00136B8C /* TXPrivacyPermissionsTool.m in Sources */,
 				7D5AC21527CF6B4E00136B8C /* NSString+TXMD5.m in Sources */,
+				7D5AC2DD27D0890D00136B8C /* UIViewController+TXMakeToast.m in Sources */,
 				7D5AC27B27CF721400136B8C /* TXAppSystemInfo.m in Sources */,
 				7D5AC27F27D057A200136B8C /* TXImageUtils.m in Sources */,
 				7D5AC21027CF6B4E00136B8C /* UIView+TXOtherView.m in Sources */,
 				7D5AC21627CF6B4E00136B8C /* UIView+TXCorner.m in Sources */,
 				7D5AC27527CF71DF00136B8C /* TXDefaultTool.m in Sources */,
+				7D5AC2D727D068E600136B8C /* TXNaviViewController.m in Sources */,
+				7D5AC2D227D068E600136B8C /* TXDadView.m in Sources */,
 				F599D7812019753800D33834 /* AppDelegate.m in Sources */,
 				F59567871FAB4AD20068A04F /* main.m in Sources */,
+				7D5AC2DC27D0890D00136B8C /* UIView+Toast.m in Sources */,
 				7D5AC27727CF71DF00136B8C /* TXGlobalDefine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

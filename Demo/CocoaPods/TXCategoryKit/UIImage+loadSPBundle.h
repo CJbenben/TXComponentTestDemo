@@ -51,4 +51,11 @@ typedef NS_ENUM(NSUInteger, GradientType) {
  */
 + (UIImage *)captureImageFromView:(UIView *)view imageRect:(CGRect)imageRect;
 
+/**
+ @brief UIColor 转 UIImage
+ @param color        UIColor
+ @return  UIimage
+ */
++ (UIImage *)imageWithColor:(UIColor *)color;
+
 @end
