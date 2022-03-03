@@ -20,6 +20,10 @@
 		7D5AC21427CF6B4E00136B8C /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20B27CF6B4E00136B8C /* NSString+TXString.m */; };
 		7D5AC21527CF6B4E00136B8C /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20C27CF6B4E00136B8C /* NSString+TXMD5.m */; };
 		7D5AC21627CF6B4E00136B8C /* UIView+TXCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC20D27CF6B4E00136B8C /* UIView+TXCorner.m */; };
+		7D5AC27527CF71DF00136B8C /* TXDefaultTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC26727CF71DE00136B8C /* TXDefaultTool.m */; };
+		7D5AC27627CF71DF00136B8C /* TXPrivacyPermissionsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC26827CF71DE00136B8C /* TXPrivacyPermissionsTool.m */; };
+		7D5AC27727CF71DF00136B8C /* TXGlobalDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC26A27CF71DF00136B8C /* TXGlobalDefine.m */; };
+		7D5AC27B27CF721400136B8C /* TXAppSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC27927CF721400136B8C /* TXAppSystemInfo.m */; };
 		D2EF17860B35A948B14BE1C3 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F82D7517499F26132FFA72 /* libPods-Demo.a */; };
 		F59567811FAB4AD20068A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59567801FAB4AD20068A04F /* Assets.xcassets */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
@@ -73,6 +77,21 @@
 		7D5AC20D27CF6B4E00136B8C /* UIView+TXCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXCorner.m"; sourceTree = "<group>"; };
 		7D5AC20E27CF6B4E00136B8C /* UIImage+loadSPBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+loadSPBundle.h"; sourceTree = "<group>"; };
 		7D5AC20F27CF6B4E00136B8C /* TXCategoryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCategoryKit.h; sourceTree = "<group>"; };
+		7D5AC26627CF71DE00136B8C /* TXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXFrame.h; sourceTree = "<group>"; };
+		7D5AC26727CF71DE00136B8C /* TXDefaultTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXDefaultTool.m; sourceTree = "<group>"; };
+		7D5AC26827CF71DE00136B8C /* TXPrivacyPermissionsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXPrivacyPermissionsTool.m; sourceTree = "<group>"; };
+		7D5AC26927CF71DF00136B8C /* TXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXConst.h; sourceTree = "<group>"; };
+		7D5AC26A27CF71DF00136B8C /* TXGlobalDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXGlobalDefine.m; sourceTree = "<group>"; };
+		7D5AC26B27CF71DF00136B8C /* TXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXColor.h; sourceTree = "<group>"; };
+		7D5AC26C27CF71DF00136B8C /* TXCommonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCommonKit.h; sourceTree = "<group>"; };
+		7D5AC26E27CF71DF00136B8C /* TXDefaultTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXDefaultTool.h; sourceTree = "<group>"; };
+		7D5AC27027CF71DF00136B8C /* TXFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXFont.h; sourceTree = "<group>"; };
+		7D5AC27127CF71DF00136B8C /* TXGlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXGlobalDefine.h; sourceTree = "<group>"; };
+		7D5AC27227CF71DF00136B8C /* TXPrivacyPermissionsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXPrivacyPermissionsTool.h; sourceTree = "<group>"; };
+		7D5AC27327CF71DF00136B8C /* TXTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTool.h; sourceTree = "<group>"; };
+		7D5AC27427CF71DF00136B8C /* TXAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAppInfo.h; sourceTree = "<group>"; };
+		7D5AC27927CF721400136B8C /* TXAppSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAppSystemInfo.m; sourceTree = "<group>"; };
+		7D5AC27A27CF721400136B8C /* TXAppSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAppSystemInfo.h; sourceTree = "<group>"; };
 		C1A3EC334A534427B4F75C41 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F59567741FAB4AD20068A04F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567801FAB4AD20068A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +164,7 @@
 		7D5AC1E927CF6B3E00136B8C /* CocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				7D5AC25227CF71D100136B8C /* TXCommonKit */,
 				7D5AC1EA27CF6B3E00136B8C /* TXCategoryKit */,
 			);
 			path = CocoaPods;
@@ -170,6 +190,28 @@
 				7D5AC20127CF6B4E00136B8C /* UIView+TXOtherView.m */,
 			);
 			path = TXCategoryKit;
+			sourceTree = "<group>";
+		};
+		7D5AC25227CF71D100136B8C /* TXCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D5AC27427CF71DF00136B8C /* TXAppInfo.h */,
+				7D5AC26B27CF71DF00136B8C /* TXColor.h */,
+				7D5AC26C27CF71DF00136B8C /* TXCommonKit.h */,
+				7D5AC26927CF71DF00136B8C /* TXConst.h */,
+				7D5AC26E27CF71DF00136B8C /* TXDefaultTool.h */,
+				7D5AC26727CF71DE00136B8C /* TXDefaultTool.m */,
+				7D5AC27027CF71DF00136B8C /* TXFont.h */,
+				7D5AC26627CF71DE00136B8C /* TXFrame.h */,
+				7D5AC27127CF71DF00136B8C /* TXGlobalDefine.h */,
+				7D5AC26A27CF71DF00136B8C /* TXGlobalDefine.m */,
+				7D5AC27A27CF721400136B8C /* TXAppSystemInfo.h */,
+				7D5AC27927CF721400136B8C /* TXAppSystemInfo.m */,
+				7D5AC27227CF71DF00136B8C /* TXPrivacyPermissionsTool.h */,
+				7D5AC26827CF71DE00136B8C /* TXPrivacyPermissionsTool.m */,
+				7D5AC27327CF71DF00136B8C /* TXTool.h */,
+			);
+			path = TXCommonKit;
 			sourceTree = "<group>";
 		};
 		9DDA882E3BA37FECE97A620A /* Pods */ = {
@@ -441,11 +483,15 @@
 				7D5AC21327CF6B4E00136B8C /* UIImage+loadSPBundle.m in Sources */,
 				7D5AC21127CF6B4E00136B8C /* UIColor+TXColor.m in Sources */,
 				F5FD32C520C4D1C90049B79B /* AtzucheCustomTipView.m in Sources */,
+				7D5AC27627CF71DF00136B8C /* TXPrivacyPermissionsTool.m in Sources */,
 				7D5AC21527CF6B4E00136B8C /* NSString+TXMD5.m in Sources */,
+				7D5AC27B27CF721400136B8C /* TXAppSystemInfo.m in Sources */,
 				7D5AC21027CF6B4E00136B8C /* UIView+TXOtherView.m in Sources */,
 				7D5AC21627CF6B4E00136B8C /* UIView+TXCorner.m in Sources */,
+				7D5AC27527CF71DF00136B8C /* TXDefaultTool.m in Sources */,
 				F599D7812019753800D33834 /* AppDelegate.m in Sources */,
 				F59567871FAB4AD20068A04F /* main.m in Sources */,
+				7D5AC27727CF71DF00136B8C /* TXGlobalDefine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
