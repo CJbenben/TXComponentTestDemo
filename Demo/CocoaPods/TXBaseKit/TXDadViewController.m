@@ -93,7 +93,7 @@
     
     CGRect naviRightBtnFrame = self.naviRightBtn.frame;
     naviRightBtnFrame.size.width = [rightBtnTitle boundingRectWithSize:CGSizeMake(200, self.naviTitleL.frame.size.height) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: self.naviRightBtn.titleLabel.font} context:nil].size.width;
-    naviRightBtnFrame.origin.x = self.naviView.frame.size.width - 18 - self.naviRightBtn.frame.size.width;
+    naviRightBtnFrame.origin.x = self.naviView.frame.size.width - 18 - naviRightBtnFrame.size.width;
     self.naviRightBtn.frame = naviRightBtnFrame;
 }
 
@@ -111,8 +111,8 @@
     
     CGRect naviRightBtnFrame = self.naviRightBtn.frame;
     naviRightBtnFrame.size = image.size;
-    naviRightBtnFrame.origin.x = self.naviView.frame.size.width - 18 - self.naviRightBtn.frame.size.width;
-    naviRightBtnFrame.origin.y = self.naviTitleL.frame.origin.y + (self.naviTitleL.frame.size.height - self.naviRightBtn.frame.size.height)/2.0;
+    naviRightBtnFrame.origin.x = self.naviView.frame.size.width - 18 - naviRightBtnFrame.size.width;
+    naviRightBtnFrame.origin.y = self.naviTitleL.frame.origin.y + (self.naviTitleL.frame.size.height - naviRightBtnFrame.size.height)/2.0;
     self.naviRightBtn.frame = naviRightBtnFrame;
 }
 

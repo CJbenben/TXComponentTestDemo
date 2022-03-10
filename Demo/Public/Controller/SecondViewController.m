@@ -9,7 +9,7 @@
 #import "SecondViewController.h"
 #import "TXCategoryKit.h"
 #import "TXCommonKit.h"
-#import "TXTitleButton.h"
+#import "TXTestViewController.h"
 
 @interface SecondViewController ()
 
@@ -19,15 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"笨笨编程";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    TXTitleButton *btn = [[TXTitleButton alloc] initWithFrame:CGRectMake(10, 120, 115, 80)];
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 120, 115, 80)];
     [btn setBackgroundColor:[UIColor lightGrayColor]];
-    [btn setupWithFont:[UIFont systemFontOfSize:14]];
+    //[btn setupWithFont:[UIFont systemFontOfSize:14]];
     [btn setImage:[UIImage imageNamed:@"test.jpeg"] forState:UIControlStateNormal];
     [btn setTitle:@"租车" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(nextVC) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+}
+
+- (void)nextVC {
+    TXTestViewController *vc = [[TXTestViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - UITableViewDataSource

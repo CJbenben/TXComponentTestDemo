@@ -33,6 +33,7 @@
 		7D5AC2DD27D0890D00136B8C /* UIViewController+TXMakeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2D927D0890D00136B8C /* UIViewController+TXMakeToast.m */; };
 		7D5AC2EA27D0A61100136B8C /* TXDadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2E827D0A61100136B8C /* TXDadView.m */; };
 		7D5AC2F327D0A8BF00136B8C /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC2F227D0A8BF00136B8C /* test.jpeg */; };
+		7D6C19A227D9D97D00531B98 /* TXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C19A127D9D97D00531B98 /* TXTestViewController.m */; };
 		D2EF17860B35A948B14BE1C3 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F82D7517499F26132FFA72 /* libPods-Demo.a */; };
 		F59567811FAB4AD20068A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59567801FAB4AD20068A04F /* Assets.xcassets */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
@@ -116,6 +117,8 @@
 		7D5AC2E827D0A61100136B8C /* TXDadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXDadView.m; sourceTree = "<group>"; };
 		7D5AC2E927D0A61100136B8C /* TXDadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXDadView.h; sourceTree = "<group>"; };
 		7D5AC2F227D0A8BF00136B8C /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
+		7D6C19A027D9D97D00531B98 /* TXTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTestViewController.h; sourceTree = "<group>"; };
+		7D6C19A127D9D97D00531B98 /* TXTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTestViewController.m; sourceTree = "<group>"; };
 		C1A3EC334A534427B4F75C41 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F59567741FAB4AD20068A04F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567801FAB4AD20068A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -358,6 +361,8 @@
 			children = (
 				F5E3038120C13D09001F11EC /* SecondViewController.h */,
 				F5E3038220C13D09001F11EC /* SecondViewController.m */,
+				7D6C19A027D9D97D00531B98 /* TXTestViewController.h */,
+				7D6C19A127D9D97D00531B98 /* TXTestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -551,6 +556,7 @@
 				7D5AC21627CF6B4E00136B8C /* UIView+TXCorner.m in Sources */,
 				7D5AC27527CF71DF00136B8C /* TXDefaultTool.m in Sources */,
 				7D5AC2D727D068E600136B8C /* TXNaviViewController.m in Sources */,
+				7D6C19A227D9D97D00531B98 /* TXTestViewController.m in Sources */,
 				F599D7812019753800D33834 /* AppDelegate.m in Sources */,
 				7D5AC2EA27D0A61100136B8C /* TXDadView.m in Sources */,
 				F59567871FAB4AD20068A04F /* main.m in Sources */,
