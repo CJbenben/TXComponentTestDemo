@@ -1,5 +1,5 @@
 //
-//  DemoTests.m
+//  TXComponentTestDemoTests.m
 //  DemoTests
 //
 //  Created by ChenJie on 2017/11/2.
@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "TXImageUtils.h"
 
-@interface DemoTests : XCTestCase
+@interface TXComponentTestDemoTests : XCTestCase
 
 @end
 
-@implementation DemoTests
+@implementation TXComponentTestDemoTests
 
 - (void)setUp {
     [super setUp];

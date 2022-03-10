@@ -1,5 +1,5 @@
 //
-//  DemoUITests.m
+//  TXComponentTestDemoUITests.m
 //  DemoUITests
 //
 //  Created by ChenJie on 2017/11/2.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface DemoUITests : XCTestCase
+@interface TXComponentTestDemoUITests : XCTestCase
 
 @end
 
-@implementation DemoUITests
+@implementation TXComponentTestDemoUITests
 
 - (void)setUp {
     [super setUp];

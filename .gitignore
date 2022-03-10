@@ -1,11 +1,12 @@
 .DS_Store
   
-Demo.xcodeproj/project.xcworkspace/xcuserdata/*
+TXComponentTestDemo.xcodeproj/project.xcworkspace/xcuserdata/*
 
-Demo.xcodeproj/xcuserdata/*
+TXComponentTestDemo.xcodeproj/xcuserdata/*
 
-Demo.xcworkspace/xcuserdata/chenxiaojie.xcuserdatad/UserInterfaceState.xcuserstate
-Demo.xcworkspace/xcuserdata/chenxiaojie.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+TXComponentTestDemo.xcworkspace/xcuserdata/chenxiaojie.xcuserdatad/UserInterfaceState.xcuserstate
+
+TXComponentTestDemo.xcworkspace/xcuserdata/chenxiaojie.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
 
 Pods/Pods.xcodeproj/xcuserdata/*
 

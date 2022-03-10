@@ -34,11 +34,11 @@
 		7D5AC2EA27D0A61100136B8C /* TXDadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2E827D0A61100136B8C /* TXDadView.m */; };
 		7D5AC2F327D0A8BF00136B8C /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC2F227D0A8BF00136B8C /* test.jpeg */; };
 		7D6C19A227D9D97D00531B98 /* TXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C19A127D9D97D00531B98 /* TXTestViewController.m */; };
-		D2EF17860B35A948B14BE1C3 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F82D7517499F26132FFA72 /* libPods-Demo.a */; };
+		E3D15E8902E72E61AA25BB42 /* libPods-TXComponentTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E940E6EA2CFA9F310A80B /* libPods-TXComponentTestDemo.a */; };
 		F59567811FAB4AD20068A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59567801FAB4AD20068A04F /* Assets.xcassets */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
-		F59567911FAB4AD20068A04F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567901FAB4AD20068A04F /* DemoTests.m */; };
-		F595679C1FAB4AD20068A04F /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F595679B1FAB4AD20068A04F /* DemoUITests.m */; };
+		F59567911FAB4AD20068A04F /* TXComponentTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567901FAB4AD20068A04F /* TXComponentTestDemoTests.m */; };
+		F595679C1FAB4AD20068A04F /* TXComponentTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F595679B1FAB4AD20068A04F /* TXComponentTestDemoUITests.m */; };
 		F599D7812019753800D33834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F599D7792019753800D33834 /* AppDelegate.m */; };
 		F5E3038B20C13D09001F11EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E3038220C13D09001F11EC /* SecondViewController.m */; };
 		F5E3039220C13D59001F11EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E3039020C13D59001F11EC /* LaunchScreen.storyboard */; };
@@ -64,8 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F82D7517499F26132FFA72 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		404E940E6EA2CFA9F310A80B /* libPods-TXComponentTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TXComponentTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B2EA328EB0A39820DDBEDC /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		6F3055CA3007252FA25D352C /* Pods-TXComponentTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXComponentTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TXComponentTestDemo/Pods-TXComponentTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7D3392882563726B00C9FCBF /* 123456.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 123456.pdf; sourceTree = "<group>"; };
 		7D52B7C12514A0D60032282E /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		7D52B7C22514A0D60032282E /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
@@ -119,20 +120,21 @@
 		7D5AC2F227D0A8BF00136B8C /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
 		7D6C19A027D9D97D00531B98 /* TXTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTestViewController.h; sourceTree = "<group>"; };
 		7D6C19A127D9D97D00531B98 /* TXTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTestViewController.m; sourceTree = "<group>"; };
+		BC94D7C558C19F2C2A29649F /* Pods-TXComponentTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXComponentTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TXComponentTestDemo/Pods-TXComponentTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C1A3EC334A534427B4F75C41 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		F59567741FAB4AD20068A04F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59567741FAB4AD20068A04F /* TXComponentTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXComponentTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567801FAB4AD20068A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F59567851FAB4AD20068A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59567861FAB4AD20068A04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F595678C1FAB4AD20068A04F /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F59567901FAB4AD20068A04F /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		F595678C1FAB4AD20068A04F /* TXComponentTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXComponentTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59567901FAB4AD20068A04F /* TXComponentTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXComponentTestDemoTests.m; sourceTree = "<group>"; };
 		F59567921FAB4AD20068A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F59567971FAB4AD20068A04F /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F595679B1FAB4AD20068A04F /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
+		F59567971FAB4AD20068A04F /* TXComponentTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXComponentTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F595679B1FAB4AD20068A04F /* TXComponentTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXComponentTestDemoUITests.m; sourceTree = "<group>"; };
 		F595679D1FAB4AD20068A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F599D7782019753800D33834 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F599D7792019753800D33834 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F599D7832019754500D33834 /* Demo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.pch; sourceTree = "<group>"; };
+		F599D7832019754500D33834 /* TXComponentTestDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXComponentTestDemo.pch; sourceTree = "<group>"; };
 		F5E3038120C13D09001F11EC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F5E3038220C13D09001F11EC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F5E3039020C13D59001F11EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -146,7 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2EF17860B35A948B14BE1C3 /* libPods-Demo.a in Frameworks */,
+				E3D15E8902E72E61AA25BB42 /* libPods-TXComponentTestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +172,7 @@
 		2D0A32D185645163E52B81EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01F82D7517499F26132FFA72 /* libPods-Demo.a */,
+				404E940E6EA2CFA9F310A80B /* libPods-TXComponentTestDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -277,6 +279,8 @@
 			children = (
 				69B2EA328EB0A39820DDBEDC /* Pods-Demo.debug.xcconfig */,
 				C1A3EC334A534427B4F75C41 /* Pods-Demo.release.xcconfig */,
+				BC94D7C558C19F2C2A29649F /* Pods-TXComponentTestDemo.debug.xcconfig */,
+				6F3055CA3007252FA25D352C /* Pods-TXComponentTestDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -284,9 +288,9 @@
 		F595676B1FAB4AD20068A04F = {
 			isa = PBXGroup;
 			children = (
-				F59567761FAB4AD20068A04F /* Demo */,
-				F595678F1FAB4AD20068A04F /* DemoTests */,
-				F595679A1FAB4AD20068A04F /* DemoUITests */,
+				F59567761FAB4AD20068A04F /* TXComponentTestDemo */,
+				F595678F1FAB4AD20068A04F /* TXComponentTestDemoTests */,
+				F595679A1FAB4AD20068A04F /* TXComponentTestDemoUITests */,
 				F59567751FAB4AD20068A04F /* Products */,
 				9DDA882E3BA37FECE97A620A /* Pods */,
 				2D0A32D185645163E52B81EE /* Frameworks */,
@@ -296,14 +300,14 @@
 		F59567751FAB4AD20068A04F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F59567741FAB4AD20068A04F /* Demo.app */,
-				F595678C1FAB4AD20068A04F /* DemoTests.xctest */,
-				F59567971FAB4AD20068A04F /* DemoUITests.xctest */,
+				F59567741FAB4AD20068A04F /* TXComponentTestDemo.app */,
+				F595678C1FAB4AD20068A04F /* TXComponentTestDemoTests.xctest */,
+				F59567971FAB4AD20068A04F /* TXComponentTestDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F59567761FAB4AD20068A04F /* Demo */ = {
+		F59567761FAB4AD20068A04F /* TXComponentTestDemo */ = {
 			isa = PBXGroup;
 			children = (
 				7D5AC1E927CF6B3E00136B8C /* CocoaPods */,
@@ -313,27 +317,27 @@
 				F59567801FAB4AD20068A04F /* Assets.xcassets */,
 				F59567851FAB4AD20068A04F /* Info.plist */,
 				F59567861FAB4AD20068A04F /* main.m */,
-				F599D7832019754500D33834 /* Demo.pch */,
+				F599D7832019754500D33834 /* TXComponentTestDemo.pch */,
 			);
-			path = Demo;
+			path = TXComponentTestDemo;
 			sourceTree = "<group>";
 		};
-		F595678F1FAB4AD20068A04F /* DemoTests */ = {
+		F595678F1FAB4AD20068A04F /* TXComponentTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				F59567901FAB4AD20068A04F /* DemoTests.m */,
+				F59567901FAB4AD20068A04F /* TXComponentTestDemoTests.m */,
 				F59567921FAB4AD20068A04F /* Info.plist */,
 			);
-			path = DemoTests;
+			path = TXComponentTestDemoTests;
 			sourceTree = "<group>";
 		};
-		F595679A1FAB4AD20068A04F /* DemoUITests */ = {
+		F595679A1FAB4AD20068A04F /* TXComponentTestDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F595679B1FAB4AD20068A04F /* DemoUITests.m */,
+				F595679B1FAB4AD20068A04F /* TXComponentTestDemoUITests.m */,
 				F595679D1FAB4AD20068A04F /* Info.plist */,
 			);
-			path = DemoUITests;
+			path = TXComponentTestDemoUITests;
 			sourceTree = "<group>";
 		};
 		F599D7772019753800D33834 /* AppDelegate */ = {
@@ -379,9 +383,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F59567731FAB4AD20068A04F /* Demo */ = {
+		F59567731FAB4AD20068A04F /* TXComponentTestDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F59567A01FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = F59567A01FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "TXComponentTestDemo" */;
 			buildPhases = (
 				FAC01AEF200F8FB48B4E652C /* [CP] Check Pods Manifest.lock */,
 				F59567701FAB4AD20068A04F /* Sources */,
@@ -392,14 +396,14 @@
 			);
 			dependencies = (
 			);
-			name = Demo;
+			name = TXComponentTestDemo;
 			productName = Demo;
-			productReference = F59567741FAB4AD20068A04F /* Demo.app */;
+			productReference = F59567741FAB4AD20068A04F /* TXComponentTestDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F595678B1FAB4AD20068A04F /* DemoTests */ = {
+		F595678B1FAB4AD20068A04F /* TXComponentTestDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F59567A31FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "DemoTests" */;
+			buildConfigurationList = F59567A31FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "TXComponentTestDemoTests" */;
 			buildPhases = (
 				F59567881FAB4AD20068A04F /* Sources */,
 				F59567891FAB4AD20068A04F /* Frameworks */,
@@ -410,14 +414,14 @@
 			dependencies = (
 				F595678E1FAB4AD20068A04F /* PBXTargetDependency */,
 			);
-			name = DemoTests;
+			name = TXComponentTestDemoTests;
 			productName = DemoTests;
-			productReference = F595678C1FAB4AD20068A04F /* DemoTests.xctest */;
+			productReference = F595678C1FAB4AD20068A04F /* TXComponentTestDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F59567961FAB4AD20068A04F /* DemoUITests */ = {
+		F59567961FAB4AD20068A04F /* TXComponentTestDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F59567A61FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "DemoUITests" */;
+			buildConfigurationList = F59567A61FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "TXComponentTestDemoUITests" */;
 			buildPhases = (
 				F59567931FAB4AD20068A04F /* Sources */,
 				F59567941FAB4AD20068A04F /* Frameworks */,
@@ -428,9 +432,9 @@
 			dependencies = (
 				F59567991FAB4AD20068A04F /* PBXTargetDependency */,
 			);
-			name = DemoUITests;
+			name = TXComponentTestDemoUITests;
 			productName = DemoUITests;
-			productReference = F59567971FAB4AD20068A04F /* DemoUITests.xctest */;
+			productReference = F59567971FAB4AD20068A04F /* TXComponentTestDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -458,7 +462,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F595676F1FAB4AD20068A04F /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = F595676F1FAB4AD20068A04F /* Build configuration list for PBXProject "TXComponentTestDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -471,9 +475,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F59567731FAB4AD20068A04F /* Demo */,
-				F595678B1FAB4AD20068A04F /* DemoTests */,
-				F59567961FAB4AD20068A04F /* DemoUITests */,
+				F59567731FAB4AD20068A04F /* TXComponentTestDemo */,
+				F595678B1FAB4AD20068A04F /* TXComponentTestDemoTests */,
+				F59567961FAB4AD20068A04F /* TXComponentTestDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -526,7 +530,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TXComponentTestDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -569,7 +573,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F59567911FAB4AD20068A04F /* DemoTests.m in Sources */,
+				F59567911FAB4AD20068A04F /* TXComponentTestDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F595679C1FAB4AD20068A04F /* DemoUITests.m in Sources */,
+				F595679C1FAB4AD20068A04F /* TXComponentTestDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,12 +590,12 @@
 /* Begin PBXTargetDependency section */
 		F595678E1FAB4AD20068A04F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F59567731FAB4AD20068A04F /* Demo */;
+			target = F59567731FAB4AD20068A04F /* TXComponentTestDemo */;
 			targetProxy = F595678D1FAB4AD20068A04F /* PBXContainerItemProxy */;
 		};
 		F59567991FAB4AD20068A04F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F59567731FAB4AD20068A04F /* Demo */;
+			target = F59567731FAB4AD20068A04F /* TXComponentTestDemo */;
 			targetProxy = F59567981FAB4AD20068A04F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -707,16 +711,16 @@
 		};
 		F59567A11FAB4AD20068A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69B2EA328EB0A39820DDBEDC /* Pods-Demo.debug.xcconfig */;
+			baseConfigurationReference = BC94D7C558C19F2C2A29649F /* Pods-TXComponentTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7C7TQD6VN;
-				GCC_PREFIX_HEADER = Demo/Demo.pch;
-				INFOPLIST_FILE = Demo/Info.plist;
+				GCC_PREFIX_HEADER = TXComponentTestDemo/TXComponentTestDemo.pch;
+				INFOPLIST_FILE = TXComponentTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chenxiaojie.TXGDSDK.com;
+				PRODUCT_BUNDLE_IDENTIFIER = chenxiaojie.TXComponentTestDemo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -724,16 +728,16 @@
 		};
 		F59567A21FAB4AD20068A04F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1A3EC334A534427B4F75C41 /* Pods-Demo.release.xcconfig */;
+			baseConfigurationReference = 6F3055CA3007252FA25D352C /* Pods-TXComponentTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7C7TQD6VN;
-				GCC_PREFIX_HEADER = Demo/Demo.pch;
-				INFOPLIST_FILE = Demo/Info.plist;
+				GCC_PREFIX_HEADER = TXComponentTestDemo/TXComponentTestDemo.pch;
+				INFOPLIST_FILE = TXComponentTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chenxiaojie.TXGDSDK.com;
+				PRODUCT_BUNDLE_IDENTIFIER = chenxiaojie.TXComponentTestDemo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -750,7 +754,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = benben.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TXComponentTestDemo.app/TXComponentTestDemo";
 			};
 			name = Debug;
 		};
@@ -765,7 +769,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = benben.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TXComponentTestDemo.app/TXComponentTestDemo";
 			};
 			name = Release;
 		};
@@ -800,7 +804,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F595676F1FAB4AD20068A04F /* Build configuration list for PBXProject "Demo" */ = {
+		F595676F1FAB4AD20068A04F /* Build configuration list for PBXProject "TXComponentTestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F595679E1FAB4AD20068A04F /* Debug */,
@@ -809,7 +813,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F59567A01FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		F59567A01FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "TXComponentTestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F59567A11FAB4AD20068A04F /* Debug */,
@@ -818,7 +822,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F59567A31FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
+		F59567A31FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "TXComponentTestDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F59567A41FAB4AD20068A04F /* Debug */,
@@ -827,7 +831,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F59567A61FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
+		F59567A61FAB4AD20068A04F /* Build configuration list for PBXNativeTarget "TXComponentTestDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F59567A71FAB4AD20068A04F /* Debug */,
