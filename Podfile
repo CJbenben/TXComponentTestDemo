@@ -3,7 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TXComponentTestDemo' do
     
-#pod 'MJExtension'
+  pod 'Aspects'
 
 end
 
