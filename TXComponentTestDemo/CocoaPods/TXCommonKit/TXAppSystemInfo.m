@@ -139,7 +139,7 @@
  获取设备当前网络IP地址
  参考文章：https://blog.csdn.net/txz_gray/article/details/53217293?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-3&spm=1001.2101.3001.4242
  */
-+ (NSString *)getNetworkIPAddress {
++ (NSString *)getNetworkIPAddress2 {
     NSError *error;
     NSURL *ipURL = [NSURL URLWithString:@"http://pv.sohu.com/cityjson?ie=utf-8"];
     
@@ -158,6 +158,20 @@
         return ipStr;
     }
     return @"0.0.0.0";
+}
+
++ (NSString *)getNetworkIPAddress {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSError *error;
+        NSURL *ipURL = [NSURL URLWithString:@"http://ifconfig.me/ip"];
+        NSString *ipStr = [NSString stringWithContentsOfURL:ipURL encoding:NSUTF8StringEncoding error:&error];
+        if (error || ipStr.length) {
+//            return @"0.0.0.0";
+        }
+//        return ipStr;
+        NSLog(@"ip =%@", ipStr);
+    });
+    return @"111111";
 }
 
 /*

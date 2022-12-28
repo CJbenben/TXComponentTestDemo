@@ -9,5 +9,7 @@
 #ifndef Demo_pch
 #define Demo_pch
 
+#import "UIImageView+WebCache.h"
+#import <SDWebImage/SDWebImageDownloader.h>
 
 #endif /* Demo_pch */

@@ -1,5 +1,5 @@
 //
-//  UIImage+loadSPBundle.h
+//  UIImage+TXImage.h
 //  SPComponentDev
 //
 //  Created by yue on 2018/11/14.
@@ -16,7 +16,7 @@ typedef NS_ENUM(NSUInteger, GradientType) {
 };
 
 
-@interface UIImage (loadSPBundle)
+@interface UIImage (TXImage)
 
 + (instancetype)loadSPImageWithName:(NSString *)name bundle:(NSString *)bundleName targetClass:(Class)targetClass;
 

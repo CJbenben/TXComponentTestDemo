@@ -1,14 +1,14 @@
 //
-//  UIImage+loadSPBundle.m
+//  UIImage+TXImage.m
 //  SPComponentDev
 //
 //  Created by yue on 2018/11/14.
 //  Copyright © 2018年 chenxiaojie. All rights reserved.
 //
 
-#import "UIImage+loadSPBundle.h"
+#import "UIImage+TXImage.h"
 
-@implementation UIImage (loadSPBundle)
+@implementation UIImage (TXImage)
 
 + (instancetype)loadSPImageWithName:(NSString *)name bundle:(NSString *)bundleName targetClass:(Class)targetClass {
 	NSInteger scale = [[UIScreen mainScreen] scale];

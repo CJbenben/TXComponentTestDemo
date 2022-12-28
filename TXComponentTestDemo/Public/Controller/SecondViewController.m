@@ -10,6 +10,7 @@
 #import "TXCategoryKit.h"
 #import "TXCommonKit.h"
 #import "TXTestViewController.h"
+#import "TXGrayImageView.h"
 
 @interface SecondViewController ()
 
@@ -20,7 +21,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"笨笨编程";
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor colorWithHexString:@"33FF33" grayColor:YES];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+    [imageView sd_setImageWithURL:[NSURL URLWithString:@"https://img2.baidu.com/it/u=1395980100,2999837177&fm=253&fmt=auto&app=120&f=JPEG?w=1200&h=675"]];
+    [self.view addSubview:imageView];
+    
+    TXGrayImageView *imageView2 = [[TXGrayImageView alloc] initWithFrame:CGRectMake(100, 250, 200, 100)];
+    [imageView2 sd_setImageWithURL:[NSURL URLWithString:@"https://img2.baidu.com/it/u=1395980100,2999837177&fm=253&fmt=auto&app=120&f=JPEG?w=1200&h=675"]];
+    [self.view addSubview:imageView2];
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 120, 115, 80)];
     [btn setBackgroundColor:[UIColor lightGrayColor]];
@@ -30,6 +39,27 @@
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(nextVC) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    NSURL *url = [NSURL URLWithString:@"http://ifconfig.me/ip"];
+//    url = [NSURL URLWithString:@"http://pv.sohu.com/cityjson?ie=utf-8"];
+     
+    [[session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        if (!error && data) {
+            NSLog(@"Got response %@ with error %@.\n", response, error);
+            NSLog(@"DATA:\n%@\nEND DATA\n", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+        }
+    }] resume];
+    
+//    NSError *error;
+//    NSURL *ipURL = [NSURL URLWithString:@"http://ifconfig.me/ip"];
+//    NSURLSessionTask
+//    NSString *ipStr = [NSString stringWithContentsOfURL:ipURL encoding:NSUTF8StringEncoding error:&error];
+////    NSString *ip = [TXAppSystemInfo getNetworkIPAddress];
+//    NSLog(@"ip = %@", ipStr);
 }
 
 - (void)nextVC {

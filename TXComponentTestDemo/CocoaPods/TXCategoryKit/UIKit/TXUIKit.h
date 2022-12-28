@@ -7,7 +7,8 @@
 //
 
 #if __has_include(<TXCategoryKit/TXUIKit.h>)
-#import <TXCategoryKit/UIImage+loadSPBundle.h>
+#import <TXCategoryKit/UIImage+TXImage.h>
+#import <TXCategoryKit/UIImage+TXCompress.h>
 #import <TXCategoryKit/UIColor+TXColor.h>
 #import <TXCategoryKit/UIView+TXCorner.h>
 #import <TXCategoryKit/UIView+TXFrame.h>
@@ -16,7 +17,8 @@
 #import <TXCategoryKit/UIView+TXOtherView.h>
 
 #else
-#import "UIImage+loadSPBundle.h"
+#import "UIImage+TXImage.h"
+#import "UIImage+TXCompress.h"
 #import "UIColor+TXColor.h"
 #import "UIView+TXCorner.h"
 #import "UIView+TXFrame.h"

@@ -4,6 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'TXComponentTestDemo' do
     
   pod 'Aspects'
-
+  pod 'SDWebImage', '~> 5.12.5'
+  
 end
 

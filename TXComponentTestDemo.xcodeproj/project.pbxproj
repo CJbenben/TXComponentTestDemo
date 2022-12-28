@@ -24,10 +24,12 @@
 		7D5AC2D727D068E600136B8C /* TXNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2D127D068E600136B8C /* TXNaviViewController.m */; };
 		7D5AC2EA27D0A61100136B8C /* TXDadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC2E827D0A61100136B8C /* TXDadView.m */; };
 		7D5AC2F327D0A8BF00136B8C /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC2F227D0A8BF00136B8C /* test.jpeg */; };
+		7D6730A6295AE5E40043E6E6 /* TXGrayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6730A5295AE5E40043E6E6 /* TXGrayImageView.m */; };
+		7D6730AB295AED600043E6E6 /* UIImage+TXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6730A8295AED600043E6E6 /* UIImage+TXImage.m */; };
+		7D6730AC295AED600043E6E6 /* UIImage+TXCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6730AA295AED600043E6E6 /* UIImage+TXCompress.m */; };
 		7D6C19A227D9D97D00531B98 /* TXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C19A127D9D97D00531B98 /* TXTestViewController.m */; };
 		7D953DC127FD25DB00B96E87 /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DA827FD25DB00B96E87 /* NSString+TXMD5.m */; };
 		7D953DC227FD25DB00B96E87 /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DA927FD25DB00B96E87 /* NSString+TXString.m */; };
-		7D953DC327FD25DB00B96E87 /* UIImage+loadSPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DAF27FD25DB00B96E87 /* UIImage+loadSPBundle.m */; };
 		7D953DC427FD25DB00B96E87 /* UIButton+TXKitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DB327FD25DB00B96E87 /* UIButton+TXKitButton.m */; };
 		7D953DC527FD25DB00B96E87 /* UIColor+TXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DB627FD25DB00B96E87 /* UIColor+TXColor.m */; };
 		7D953DC627FD25DB00B96E87 /* UIView+TXOtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DB827FD25DB00B96E87 /* UIView+TXOtherView.m */; };
@@ -100,6 +102,12 @@
 		7D5AC2E827D0A61100136B8C /* TXDadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXDadView.m; sourceTree = "<group>"; };
 		7D5AC2E927D0A61100136B8C /* TXDadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXDadView.h; sourceTree = "<group>"; };
 		7D5AC2F227D0A8BF00136B8C /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
+		7D6730A4295AE5E40043E6E6 /* TXGrayImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXGrayImageView.h; sourceTree = "<group>"; };
+		7D6730A5295AE5E40043E6E6 /* TXGrayImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXGrayImageView.m; sourceTree = "<group>"; };
+		7D6730A7295AED600043E6E6 /* UIImage+TXCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXCompress.h"; sourceTree = "<group>"; };
+		7D6730A8295AED600043E6E6 /* UIImage+TXImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXImage.m"; sourceTree = "<group>"; };
+		7D6730A9295AED600043E6E6 /* UIImage+TXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXImage.h"; sourceTree = "<group>"; };
+		7D6730AA295AED600043E6E6 /* UIImage+TXCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXCompress.m"; sourceTree = "<group>"; };
 		7D6C19A027D9D97D00531B98 /* TXTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTestViewController.h; sourceTree = "<group>"; };
 		7D6C19A127D9D97D00531B98 /* TXTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTestViewController.m; sourceTree = "<group>"; };
 		7D953DA827FD25DB00B96E87 /* NSString+TXMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXMD5.m"; sourceTree = "<group>"; };
@@ -107,8 +115,6 @@
 		7D953DAA27FD25DB00B96E87 /* NSString+TXMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXMD5.h"; sourceTree = "<group>"; };
 		7D953DAB27FD25DB00B96E87 /* NSString+TXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXString.h"; sourceTree = "<group>"; };
 		7D953DAC27FD25DB00B96E87 /* TXFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXFoundation.h; sourceTree = "<group>"; };
-		7D953DAF27FD25DB00B96E87 /* UIImage+loadSPBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+loadSPBundle.m"; sourceTree = "<group>"; };
-		7D953DB027FD25DB00B96E87 /* UIImage+loadSPBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+loadSPBundle.h"; sourceTree = "<group>"; };
 		7D953DB227FD25DB00B96E87 /* UIButton+TXKitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXKitButton.h"; sourceTree = "<group>"; };
 		7D953DB327FD25DB00B96E87 /* UIButton+TXKitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXKitButton.m"; sourceTree = "<group>"; };
 		7D953DB527FD25DB00B96E87 /* UIColor+TXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXColor.h"; sourceTree = "<group>"; };
@@ -247,6 +253,8 @@
 				7D5AC2C927D068E600136B8C /* TXDadViewController.m */,
 				7D5AC2D027D068E600136B8C /* TXNaviViewController.h */,
 				7D5AC2D127D068E600136B8C /* TXNaviViewController.m */,
+				7D6730A4295AE5E40043E6E6 /* TXGrayImageView.h */,
+				7D6730A5295AE5E40043E6E6 /* TXGrayImageView.m */,
 			);
 			path = TXBaseKit;
 			sourceTree = "<group>";
@@ -295,8 +303,10 @@
 		7D953DAE27FD25DB00B96E87 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				7D953DB027FD25DB00B96E87 /* UIImage+loadSPBundle.h */,
-				7D953DAF27FD25DB00B96E87 /* UIImage+loadSPBundle.m */,
+				7D6730A7295AED600043E6E6 /* UIImage+TXCompress.h */,
+				7D6730AA295AED600043E6E6 /* UIImage+TXCompress.m */,
+				7D6730A9295AED600043E6E6 /* UIImage+TXImage.h */,
+				7D6730A8295AED600043E6E6 /* UIImage+TXImage.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -617,11 +627,13 @@
 				7D5AC2D727D068E600136B8C /* TXNaviViewController.m in Sources */,
 				7D953DC727FD25DB00B96E87 /* UIView+TXFrame.m in Sources */,
 				7D953DC427FD25DB00B96E87 /* UIButton+TXKitButton.m in Sources */,
+				7D6730AB295AED600043E6E6 /* UIImage+TXImage.m in Sources */,
+				7D6730A6295AE5E40043E6E6 /* TXGrayImageView.m in Sources */,
 				7D953DC127FD25DB00B96E87 /* NSString+TXMD5.m in Sources */,
-				7D953DC327FD25DB00B96E87 /* UIImage+loadSPBundle.m in Sources */,
 				7D6C19A227D9D97D00531B98 /* TXTestViewController.m in Sources */,
 				7D953DC927FD25DB00B96E87 /* UIView+Toast.m in Sources */,
 				7D953DC527FD25DB00B96E87 /* UIColor+TXColor.m in Sources */,
+				7D6730AC295AED600043E6E6 /* UIImage+TXCompress.m in Sources */,
 				F599D7812019753800D33834 /* AppDelegate.m in Sources */,
 				7D5AC2EA27D0A61100136B8C /* TXDadView.m in Sources */,
 				F59567871FAB4AD20068A04F /* main.m in Sources */,

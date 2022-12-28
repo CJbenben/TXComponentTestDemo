@@ -1,16 +1,22 @@
 PODS:
   - Aspects (1.4.1)
+  - SDWebImage (5.12.6):
+    - SDWebImage/Core (= 5.12.6)
+  - SDWebImage/Core (5.12.6)
 
 DEPENDENCIES:
   - Aspects
+  - SDWebImage (~> 5.12.5)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Aspects
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  SDWebImage: a47aea9e3d8816015db4e523daff50cfd294499d
 
-PODFILE CHECKSUM: 8d098c264097bbf30182cd0d35ebf90d5b291ef3
+PODFILE CHECKSUM: d96e0c94deb1872eb5e8141857650726dc5c289d
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3

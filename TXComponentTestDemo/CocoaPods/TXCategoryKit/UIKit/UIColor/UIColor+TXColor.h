@@ -10,8 +10,10 @@
 
 @interface UIColor (TXColor)
 
-+ (UIColor *)colorWithRGBHex:(UInt32)hex alpha:(CGFloat)alpha;
-+ (UIColor *)colorWithHexString:(NSString *)hexColorStr;
 + (UIColor *)colorWithRGBHex:(UInt32)hex;
++ (UIColor *)colorWithRGBHex:(UInt32)hex alpha:(CGFloat)alpha;
+
++ (UIColor *)colorWithHexString:(NSString *)hexColorStr;
++ (UIColor *)colorWithHexString:(NSString *)hexColorStr grayColor:(BOOL)grayColor;
 
 @end
