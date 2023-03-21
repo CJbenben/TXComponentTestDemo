@@ -53,13 +53,6 @@
             NSLog(@"DATA:\n%@\nEND DATA\n", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
         }
     }] resume];
-    
-//    NSError *error;
-//    NSURL *ipURL = [NSURL URLWithString:@"http://ifconfig.me/ip"];
-//    NSURLSessionTask
-//    NSString *ipStr = [NSString stringWithContentsOfURL:ipURL encoding:NSUTF8StringEncoding error:&error];
-////    NSString *ip = [TXAppSystemInfo getNetworkIPAddress];
-//    NSLog(@"ip = %@", ipStr);
 }
 
 - (void)nextVC {

@@ -15,5 +15,6 @@
 
 + (UIColor *)colorWithHexString:(NSString *)hexColorStr;
 + (UIColor *)colorWithHexString:(NSString *)hexColorStr grayColor:(BOOL)grayColor;
++ (UIColor *)colorWithHexString:(NSString *)hexColorStr grayColor:(BOOL)grayColor alpha:(CGFloat)alpha;
 
 @end

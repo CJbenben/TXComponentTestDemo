@@ -9,6 +9,7 @@
 #if __has_include(<TXCategoryKit/TXUIKit.h>)
 #import <TXCategoryKit/UIImage+TXImage.h>
 #import <TXCategoryKit/UIImage+TXCompress.h>
+#import <TXCategoryKit/UIImage+TXGrayImage.h>
 #import <TXCategoryKit/UIColor+TXColor.h>
 #import <TXCategoryKit/UIView+TXCorner.h>
 #import <TXCategoryKit/UIView+TXFrame.h>
@@ -19,6 +20,7 @@
 #else
 #import "UIImage+TXImage.h"
 #import "UIImage+TXCompress.h"
+#import "UIImage+TXGrayImage.h"
 #import "UIColor+TXColor.h"
 #import "UIView+TXCorner.h"
 #import "UIView+TXFrame.h"

@@ -39,6 +39,11 @@
 
 + (UIColor *)colorWithHexString:(NSString *)hexColorStr grayColor:(BOOL)grayColor
 {
+    return [self colorWithHexString:hexColorStr grayColor:grayColor alpha:1];
+}
+
++ (UIColor *)colorWithHexString:(NSString *)hexColorStr grayColor:(BOOL)grayColor alpha:(CGFloat)alpha
+{
     NSString * cString = [[hexColorStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     if ([cString length] < 6) return [UIColor clearColor];
     
@@ -51,7 +56,7 @@
     NSScanner *scanner = [NSScanner scannerWithString:cString];
     unsigned hexNum;
     if (![scanner scanHexInt:&hexNum]) return nil;
-    return [UIColor colorWithRGBHex:hexNum alpha:1.0 grayColor:grayColor];
+    return [UIColor colorWithRGBHex:hexNum alpha:alpha grayColor:grayColor];
 }
 
 @end

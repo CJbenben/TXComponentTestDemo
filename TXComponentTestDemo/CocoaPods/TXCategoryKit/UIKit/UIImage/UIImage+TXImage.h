@@ -37,9 +37,15 @@ typedef NS_ENUM(NSUInteger, GradientType) {
 + (UIImage *)loadQRCodeImgWithStr:(NSString *)qrcodeStr;
 
 /**
+ @brief 截取当前屏幕
+ @return 截取到的图片
+ */
++ (UIImage *)imageWithScreenshot;
+
+/**
  @brief 截图功能
  @param view        当前view
- @return 截图后 image
+ @return 截取到的图片
  */
 + (UIImage *)captureImageFromView:(UIView *)view;
 
@@ -47,7 +53,7 @@ typedef NS_ENUM(NSUInteger, GradientType) {
  @brief 截图功能
  @param view        当前view
  @param imageRect   截取指定尺寸的图片
- @return 截图后 image
+ @return 截取到的图片
  */
 + (UIImage *)captureImageFromView:(UIView *)view imageRect:(CGRect)imageRect;
 
